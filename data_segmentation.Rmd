@@ -1,5 +1,5 @@
 ---
-title: "Data Segmentation with UMAP and K-Means"
+title: "Data Segmentation with UMAP and K-Means methods"
 author: "Nebangwa Derrick"
 date: "2/19/2022"
 output: 
