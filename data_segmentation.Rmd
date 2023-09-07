@@ -360,8 +360,8 @@ Next, we combine the K-Means clusters and the UMAP 2D representation
 
 We're going to import the correct results first (just in case you were not able to complete the last step).
 ```{r}
-k_means_mapped_tbl <- read_rds("../../challenges/week_6_data/k_means_mapped_tbl.rds")
-umap_results_tbl   <- read_rds("../../challenges/week_6_data/umap_results_tbl.rds")
+#k_means_mapped_tbl <- read_rds("../../challenges/week_6_data/k_means_mapped_tbl.rds")
+#umap_results_tbl   <- read_rds("../../challenges/week_6_data/umap_results_tbl.rds")
 ```
 
 
@@ -394,7 +394,6 @@ Next, we'll combine the clusters from the `k_means_obj` with the `umap_results_t
 
 ```{r}
 # Use your dplyr & broom skills to combine the k_means_obj with the umap_results_tbl
-umap_kmeans_result_tbl 
 
 n<- sp_500_index_tbl %>% 
     select(symbol, company, sector )
