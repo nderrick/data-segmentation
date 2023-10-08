@@ -8,4 +8,4 @@ Use K-Means and UMAP along with `dplyr`, `ggplot2`, and `purrr` to create a visu
 - Modeling: `kmeans()` and `umap()`
 - Iteration: `purrr`
 - Data Manipulation: `dplyr`, `tidyr`, and `tibble`
-- Visualization: `ggplot2` (bonus `plotly`)
+- Visualization: `ggplot2` ( or `plotly`)
