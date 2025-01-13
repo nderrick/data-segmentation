@@ -87,7 +87,7 @@ function(category_1 = "All", category_2 = "All",
     
     # Make Plot
     g2 <- data_tbl %>%
-        ggplot(aes(x = date_rounded, y = total_sales, color = category_2)) +
+        ggplot(aes(x = date_rounded, y = total_saless, color = category_2)) +
         
         # Geoms
         geom_point(aes(text = label_text), color = "#2c3e50") +
